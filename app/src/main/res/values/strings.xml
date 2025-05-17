@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">TakeCare</string>
     <string name="default_web_client_id">30540264111-bpotf1o90j8529iifc68jpb2v8u6mbnr.apps.googleusercontent.com</string>
+    <string name="TakeCare">TakeCare</string>
+    <string name="Seleccione_Una_Opción">Seleccione una opción:</string>
+    <string name="Realizar_Diagnóstico">Realizar Diagnóstico</string>
+    <string name="Mostrar_Estado_de_Salud">Mostrar estado de salud</string>
+    <string name="Contactar_a_un_Especialista">Contactar a un especialista</string>
+    <string name="diagnostic_image">TODO</string>
 </resources>

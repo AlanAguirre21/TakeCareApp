@@ -26,7 +26,6 @@ public class Login extends AppCompatActivity {
     private static final int RC_SIGN_IN = 100;
     private GoogleSignInClient mGoogleSignInClient;
     private FirebaseAuth mAuth;
-    private SignInButton googleButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +45,7 @@ public class Login extends AppCompatActivity {
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
         // Referencia al botón de Google
-        googleButton = findViewById(R.id.googleButton);
+        SignInButton googleButton = findViewById(R.id.googleButton);
 
         // Clic en el botón
         googleButton.setOnClickListener(view -> signInWithGoogle());
