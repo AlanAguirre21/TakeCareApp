@@ -9,7 +9,6 @@ import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-
 class Pregunta {
     public String texto;
     public String[] opciones;
@@ -23,9 +22,6 @@ class Pregunta {
         this.siguienteNo = siguienteNo;
     }
 }
-
-
-//public static int contador = 0;
 
 public class Diagnostico extends AppCompatActivity implements View.OnClickListener{
     int indiceActual = 0;
@@ -111,6 +107,7 @@ public class Diagnostico extends AppCompatActivity implements View.OnClickListen
         if (indice >= 37){
             btnSi.setVisibility(View.GONE);
             btnNo.setVisibility(View.GONE);
+            // Aquí es donde pensaba poner la variable state como condición.
             return;
         }
         btnSi.setOnClickListener(v -> mostrarPregunta(p.siguienteSi));
