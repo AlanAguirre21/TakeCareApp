@@ -7,4 +7,10 @@
     <string name="Mostrar_Estado_de_Salud">Mostrar estado de salud</string>
     <string name="Contactar_a_un_Especialista">Contactar a un especialista</string>
     <string name="diagnostic_image">TODO</string>
+    <string name="diagView">Diagnóstico</string>
+    <string name="Si">Si</string>
+    <string name="No">No</string>
+    <string name="Pregunta">Pregunta...</string>
+    <string name="diagnostic">Diagnostic</string>
+    <string name="Volver_al_menú">Volver al menú</string>
 </resources>

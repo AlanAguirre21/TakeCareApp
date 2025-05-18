@@ -81,7 +81,7 @@
         app:srcCompat="@drawable/diagnostico" />
 
     <View
-        android:id="@+id/view1"
+        android:id="@+id/viewDiag"
         android:layout_height="5dp"
         android:layout_marginBottom="20dp"
         android:background="#3F51B5"
