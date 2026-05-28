@@ -278,7 +278,7 @@ TakeCare implements multiple layers of security:
 
 If you find a bug or have suggestions:
 
-1. Open an [Issue](https://github.com/AlanAguirre21/Interacci-onHC/issues) on GitHub
+1. Open an [Issue](https://github.com/AlanAguirre21/TakeCareApp/issues) on GitHub
 2. Clearly describe the problem
 3. Include steps to reproduce it
 4. Attach screenshots if necessary
